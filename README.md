@@ -16,20 +16,20 @@ The following command can be used to run the valueIterationAgent:
 The Q-Learning commads are:<br/> 
 
    
-   - python gridworld.py -a q -k 100
-   - python gridworld.py -a q -k 100 --noise 0.0 -e 0.1
+   - `python gridworld.py -a q -k 100`
+   - `python gridworld.py -a q -k 100 --noise 0.0 -e 0.1`
      - By changing e, you can change the episolon value.
-   - python crawler.py
+   - `python crawler.py`
      - This runs the crawler. It has it's own GUI to try out different values for its variables.
-   - python pacman.py -p PacmanQAgent -x 2000 -n 2010 -l smallGrid
-     - This command trains the pacman agent in a small grid maze for 2000 episodes. If you want to see the agent while it's training, you can use python pacman.py -p PacmanQAgent -n 10 -l smallGrid -a numTraining=10
+   - `python pacman.py -p PacmanQAgent -x 2000 -n 2010 -l smallGrid`
+     - This command trains the pacman agent in a small grid maze for 2000 episodes. If you want to see the agent while it's training, you can use `python pacman.py -p PacmanQAgent -n 10 -l smallGrid -a numTraining=10`
 
 
 The Approximate Q-Learning commands are listed below. These all train the pacman agent in mazes.\
 <list>
- + python pacman.py -p ApproximateQAgent -x 2000 -n 2010 -l smallGrid 
- + python pacman.py -p ApproximateQAgent -a extractor=SimpleExtractor -x 50 -n 60 -l mediumGrid
- + python pacman.py -p ApproximateQAgent -a extractor=SimpleExtractor -x 50 -n 60 -l mediumClassic
+ + `python pacman.py -p ApproximateQAgent -x 2000 -n 2010 -l smallGrid` 
+ + `python pacman.py -p ApproximateQAgent -a extractor=SimpleExtractor -x 50 -n 60 -l mediumGrid`
+ + `python pacman.py -p ApproximateQAgent -a extractor=SimpleExtractor -x 50 -n 60 -l mediumClassic`
 <list>
 
 For Deep Q-Learning, you can only see it by checking q7 with the autograder.\
