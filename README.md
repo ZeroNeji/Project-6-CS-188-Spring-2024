@@ -34,4 +34,4 @@ The Approximate Q-Learning commands are listed below. These all train the pacman
 
 For Deep Q-Learning, you can only see it by checking q7 with the autograder.\
 
-We spent time working through all 7 questions. We managed to get the first 6 by ourselves. While we did try to solve q7 on our own, we couldn't solve it ourselves in time. To show case the demo for it, we got code online, as allowed based on the instructions. The code from model.py comes from [Minjun Kim](https://github.com/nninjun/2024-Spring-CS188).
+We spent time working through all 7 questions. We managed to get the first 6 by ourselves. While we did try to solve q7 on our own, we couldn't solve it ourselves in time. To show case the demo for it, we got code online, as allowed based on the instructions. The code from model.py comes from [Minjun Kim](https://github.com/nninjun/2024-Spring-CS188). It can be found in the project 6 folder.
